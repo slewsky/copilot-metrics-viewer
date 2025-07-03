@@ -1,5 +1,5 @@
 export default defineEventHandler((event) => {
-  const config = useRuntimeConfig();
+  const config = { public: "test" };
   return {
     publicVars: config.public
   };
