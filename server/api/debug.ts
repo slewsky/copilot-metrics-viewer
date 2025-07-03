@@ -3,6 +3,6 @@ export default defineEventHandler((event) => {
   return {
     publicVars: config.public,
     githubBotTokenExists: !!config.githubBotToken,
-    gitHubToken: !!config.githubToken
+    gitHubToken: config.githubToken
   };
 });
